@@ -2,7 +2,13 @@
 
 #show: diapo.with(
   title: "My last vacations",
-  author: "John Doe",
+  author: (
+    (
+      name: "John Doe",
+      affiliation: "Typst",
+      email: "johndoe@typst.app"
+    ),
+  ),
   date: "2023-04-20",
   // display_lastpage: false,
 )

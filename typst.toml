@@ -1,0 +1,9 @@
+[package]
+name = "diapo"
+version = "0.2.0"
+entrypoint = "template.typ"
+authors = ["Louis Vignoli"]
+license = "MIT"
+description = "A minimal and simplistic Typst template for presentations."
+repository = "https://github.com/lvignoli/diapo"
+exclude = ["examples", "output"]
