@@ -1,14 +1,8 @@
-#import "template.typ": diapo, transition
+#import "../template.typ": diapo, transition
 
 #show: diapo.with(
   title: "My last vacations",
-  author: (
-    (
-      name: "John Doe",
-      affiliation: "Typst",
-      email: "johndoe@typst.app"
-    ),
-  ),
+  author: "John Doe",
   date: "2023-04-20",
   // display_lastpage: false,
 )

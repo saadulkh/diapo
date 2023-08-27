@@ -1,4 +1,4 @@
-#import "template.typ": diapo, transition
+#import "../template.typ": diapo, transition
 
 #show: diapo.with(
 	title: "Elucidation of the mechanical energy",
